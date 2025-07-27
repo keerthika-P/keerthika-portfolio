@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+  <title>Keerthika P | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    #welcome h1 {
+      animation: fadeInDown 2s ease-in-out;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Keerthika P</div>
+  <div class="menu-icon" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+  <ul id="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="welcome">
+  <h1>Welcome to My Portfolio</h1>
+  <h2 class="name">Keerthika P</h2>
+  <p class="tagline">"Transforming challenges into digital solutions."</p>
+  <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic" />
+</section>
+
+<section id="about">
+  <h2>About Me:</h2>
+  <p>Hi, I'm <strong>Keerthika P</strong>, a passionate third-year Computer Science and Engineering student. I love exploring how technology can be used to solve everyday problems and make life smarter. I'm always curious, always learning — whether it's coding, working on AI tools, or building real projects. I'm currently looking for <strong>internships</strong>, part-time roles, or even volunteer opportunities where I can grow my skills, gain real experience, and contribute to something meaningful. I believe every small step in tech can lead to something big — and I’m excited to be part of that journey.</p>
+</section>
+
+<section id="skills" class="content-box">
+  <h2 class="section-title">Skills:</h2>
+  <div class="box blue">
+    <h3><strong>Programming Languages:</strong></h3>
+    <ol>
+      <li>C</li>
+      <li>Java</li>
+      <li>Data Structures & Algorithms</li>
+    </ol>
+
+    <h3><strong>Web & UI Development:</strong></h3>
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Tailwind CSS</li>
+    </ol>
+
+    <h3><strong>Currently Learning:</strong></h3>
+    <ol>
+      <li>React JS</li>
+      <li>Node JS</li>
+      <li>Flutter</li>
+    </ol>
+  </div>
+</section>
+
+<section id="education" class="content-box">
+  <h2 class="section-title">Education:</h2>
+  <div class="box pink">
+    <p><strong>2020 - 2021:</strong> Completed SSLC schooling at National Matriculation School with 100%.</p>
+    <p><strong>2021 - 2022:</strong> Completed HSC schooling at National Matriculation Hr.Sec School with 84.3 %.</p>
+    <p><strong>2023 - 2027:</strong> Pursuing B.E in Computer Science And Engineering at K.S.R College Of Engineering,with 8.2 CGPA.</p>
+  </div>
+</section>
+
+<section id="achievements" class="content-box">
+  <h2 class="section-title">Achievements:</h2>
+  <div class="box blue">
+    <h3><strong>NPTEL Certificates:</strong></h3>
+    <div class="certificates">
+      <a href="images/cc nptel.jpg" data-lightbox="nptel" data-title="NPTEL 1"><img src="images/nptel1.jpg" alt="NPTEL 1"></a>
+      <a href="images/iot pp.jpg" data-lightbox="nptel" data-title="NPTEL 2"><img src="images/nptel2.jpg" alt="NPTEL 2"></a>
+    </div>
+
+    <h3><strong>Paper Presentations:</strong></h3>
+    <div class="certificates">
+      <a href="images/kongu pp.jpg" data-lightbox="presentations" data-title="Presentation 1"><img src="images/presentation1.jpg" alt="Presentation 1"></a>
+      <a href="images/bannari pp.jpg" data-lightbox="presentations" data-title="Presentation 2"><img src="images/presentation2.jpg" alt="Presentation 2"></a>
+      <a href="images/kit pp.jpg" data-lightbox="presentations" data-title="Presentation 3"><img src="images/presentation3.jpg" alt="Presentation 3"></a>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="content-box">
+  <h2 class="section-title">Experience:</h2>
+  <div class="box pink">
+    <h3>Internship 1: GenAI for Executive Summary:</h3>
+    <h3>Company: OneYes InfoTech Solution</h3>
+    <p>This project converts news articles, reports, or documents into clear, concise executive summaries.
+    It uses AI to understand context, audience, and purpose before generating output.
+    Designed to save time and improve decision-making with smart, structured summaries.</p>
+    <div class="certificates">
+      <a href="images/thozhil-certificate.jpg" data-lightbox="experience" data-title="Thozhil Certificate"><img src="images/thozhil-certificate.jpg" alt="Thozhil Certificate" class="cert-thumb" /></a>
+      <a href="images/oneyes_certificate.jpg" data-lightbox="experience" data-title="OneYes Certificate"><img src="images/oneyes_certificate.jpg" alt="OneYes Certificate" class="cert-thumb" /></a>
+    </div>
+
+    <h3>Internship 2: AI & ML:</h3>
+    <h3>Company: TANSAM</h3>
+    <p><strong>Artificial Intelligence and Machine Learning:</strong><br/>
+    Completed a paid internship building AI/ML models using Python, TensorFlow, and scikit-learn.<br/>
+    Worked on real-world data preprocessing, feature engineering, and model evaluation.<br/>
+    Gained hands-on exposure to NLP techniques and computer vision tasks.</p>
+    <div class="certificates">
+      <a href="images/intern .jpg" data-lightbox="experience" data-title="AI/ML Certificate"><img src="images/intern.jpg" alt="AIML Certificate" class="cert-thumb" /></a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me:</h2>
+  <form action="https://getform.io/f/allzplna" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="thankyou.html">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/keerthika-p" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:keerthikap22042006@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.instagram.com/keerthi_sp_001" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://github.com/keerthika-P" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+</section>
+
+<a href="mailto:keerthikap22042006@gmail.com" class="chat-button"><i class="fas fa-envelope"></i></a>
+<marquee behavior="scroll" direction="left" class="marquee-text">🚀 Need help? Contact me!!</marquee>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+<script>
+  function toggleMenu() {
+    document.getElementById('nav-links').classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>
